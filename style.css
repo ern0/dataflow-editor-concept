@@ -1,0 +1,35 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.flat {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+#scene {
+	margin: 0;
+	padding: 0;
+
+	position: absolute;
+	width: 800px;
+	height: 480px;
+	background: #eeeeee;
+	border: 1px solid #777777;
+}
+#x, #y {
+	font-size: 12px;
+}
+#srcarea {
+	position: absolute;
+	left: 10px;
+	top: 484px;
+}
+#src {
+	font-family: monospace;
+	font-size: 12px;
+	width: 800px;
+}

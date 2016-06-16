@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+
+	<head> 
+		<title>editor</title> 
+		<link rel="shortcut icon" href="img/icon.png" />		
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<link rel="apple-touch-icon-precomposed" href="img/icon.png" />		
+		<link rel="apple-touch-icon" href="img/icon.png" />	
+		<link rel="apple-touch-startup-image" href="img/splash.png" />
+		<meta name="mobile-web-app-capable" content="yes" />		
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />	
+
+		<link rel="stylesheet" href="lib/jquery-ui-1.11.2/jquery-ui.min.css" />
+		<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.create.js"></script>
+		<script type="text/javascript" src="lib/raphael-min.js"></script>
+		<script type="text/javascript" src="lib/raphael-roundedrectangle.js"></script>
+		<script type="text/javascript" src="lib/AvArray.js"></script>
+		
+		<link rel="stylesheet" href="style.css" />
+		
+		<script type="text/javascript" src="app/Connection.js"></script>
+		<script type="text/javascript" src="app/ComponentItem.js"></script>
+		<script type="text/javascript" src="app/Component.js"></script>
+		<script type="text/javascript" src="app/Scene.js"></script>
+		<script type="text/javascript" src="app/Editor.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head> 
+
+	<body> 
+
+		<div style="display:block;position:absolute;top:0;left:810px;font-size:22px;">
+			<span id="x">...</span>
+			<br />
+			<span id="y">...</span>
+		</div>
+		<div id="scene" class="flat">
+		</div>
+		<div id="srcarea">
+			<input id="srcbutton" name="a" type="submit" value="src" />
+			<div id="src">...</div>
+		</div>
+	
+	</body>
+</html>
